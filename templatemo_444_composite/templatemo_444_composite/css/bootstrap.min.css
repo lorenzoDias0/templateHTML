@@ -5084,7 +5084,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-header {
-        float: left
+        float: left;
     }
 }
 
@@ -5201,8 +5201,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand {
-    color: purple;
-    float: left;
+    display: flex;
+    margin: 0 auto;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -5213,10 +5213,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand:focus,
 .navbar-brand:hover {
     color: purple;
+	text-align: center;
     text-decoration: none
 }
 
 .navbar-brand>img {
+	text-align: center;
     color: purple;
     display: block
 }
@@ -5225,6 +5227,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
     .navbar>.container .navbar-brand,
     .navbar>.container-fluid .navbar-brand {
+        text-align: center;
         margin-left: -15px
     }
 }
@@ -5475,11 +5478,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-brand {
+	text-align: center;
     color: #777
 }
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
+	text-align: center;
     color: #5e5e5e;
     background-color: transparent
 }
@@ -5593,11 +5598,13 @@ fieldset[disabled] .navbar-default .btn-link:hover {
 }
 
 .navbar-inverse .navbar-brand {
+	text-align: center; 
     color: #9d9d9d
 }
 
 .navbar-inverse .navbar-brand:focus,
 .navbar-inverse .navbar-brand:hover {
+	text-align: center;
     color: #fff;
     background-color: transparent
 }
@@ -8076,4 +8083,7 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+
+.fotosComentarios {
 }
