@@ -1968,6 +1968,7 @@ pre code {
 }
 
 .container {
+    text-align: center;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -8085,5 +8086,14 @@ button.close {
     }
 }
 
-.fotosComentarios {
+#about{
+    background-color: #e3e3ee;
+}
+
+#mitra {
+    font-size: 15px;
+}
+
+#jose-comentario {
+    font-size: 25px;
 }
